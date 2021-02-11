@@ -1,3 +1,5 @@
+# Has some bugs (sizing)
+
 import tkinter as tk
 from tkinter import Canvas, Label, Frame, Entry, Button, PhotoImage, Scale
 
