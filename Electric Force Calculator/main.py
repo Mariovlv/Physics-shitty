@@ -78,11 +78,11 @@ slider.set(4)
 slider.pack()
 
 # Graphics
-positive = PhotoImage(file="/home/mariovlv/Documentos/4to-semestre/electromagnetismo/positive.png")
+positive = PhotoImage(file="~/positive.png")
 myimg = canvas.create_image(int(slider.get())*50+320, 250, image=positive)
-negative = PhotoImage(file="/home/mariovlv/Documentos/4to-semestre/electromagnetismo/negative.png")
+negative = PhotoImage(file="~/negative.png")
 myimg2 = canvas.create_image(290, 250,image=negative)
-barra = PhotoImage(file="/home/mariovlv/Documentos/4to-semestre/electromagnetismo/barra.png")
+barra = PhotoImage(file="~/barra.png")
 myimgBarra = canvas.create_image(420, 340, image=barra)
 
 # mainloop
